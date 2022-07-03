@@ -1,0 +1,105 @@
+/*      Abdullah Khan
+        Roll no 558
+        Internet Programming
+        Assignment # 1*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    font-family: poppins, sans-serif;
+    height: 1000px;
+    margin: 20px;
+}
+h1{text-align: center;}
+form{
+    width: 100%;
+    padding: 14px;
+ 
+    border: 3px  solid rgb(209, 209, 209);
+    background-color: rgb(239, 244, 250);
+    border-radius: 6px ;
+}
+fieldset{
+    margin: 20px 5px;
+    padding: 14px;
+    border-radius: 6px ;
+    border: 3px solid rgb(223, 223, 223);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 600;
+}
+div{
+    width: 250px;
+    margin: 10px 10px;
+}
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 4px solid rgb(206, 205, 205);
+    border-radius: 4px ;
+    transition: .3s all ease-in-out;
+}
+input:hover{
+    border-bottom: 4px solid rgb(9, 60, 224);
+}
+input:focus{
+    border-bottom: 4px solid green;
+    outline: none;
+}
+select{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 4px solid rgb(206, 205, 205);
+    border-radius: 4px ;
+    transition: .3s all ease-in-out;
+}
+select:hover{
+    border-bottom: 4px solid rgb(9, 60, 224);
+}
+input[type='submit'] {
+    width: auto;
+    padding: 20px;
+    line-height: 1px;
+    color: white;
+    border: none;
+    background-color: teal;
+    font-size: 18px;
+    margin: 6px;
+    
+}
+input[type='submit']:hover {
+    padding: 22px;
+}
+input[type='reset'] {
+    width: auto;
+    padding: 20px;
+    line-height: 1px;
+    color: white;
+    border: none;
+    background-color: tomato;
+    font-size: 18px;
+    margin: 6px;
+    
+}
+input[type='reset']:hover {
+    padding: 22px;
+}
+
+.subject{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

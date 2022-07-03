@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Abdullah khan
+        Roll no 558
+        Internet Programming
+        Assignment # 1-->
+    <form onsubmit="takeValue()">
+        <h1>Form</h1>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input class="fname" id="name" type="text" name="name" placeholder="Full name" required>
+            </div>
+            <div>
+                <label for="fname">Father's Name:</label>
+                <input class="fname" id="fname" type="text" name="fatherName" placeholder="Father name" required>
+            </div>
+            <div>
+                <label for="phone">Phone no:</label>
+                <input type="number" id="phone" name="name" placeholder="Phone number" required>
+            </div>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Education Details</legend>
+            <div>
+                <label for="iname">Institution Name:</label>
+                <input type="text" id="iname"  name="name" placeholder="Institution Name" required>
+            </div>
+            <div>
+                <label for="class">Class:</label>
+                <input type="text" id="class" required>
+            </div>
+            <div>
+                <label for="sem">Semester:</label>
+                <input type="number" id="sem" name="name" placeholder="Semester" required>
+            </div>
+            <div>
+                <label for="roll_number">Roll Number:</label>
+                <input type="text" id="roll_number" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Exam Details</legend>
+            <div>
+                <label for="board">Board:</label>
+                <select name="board" id="board">
+                    <option value="lhr">Lahore-Board</option>
+                    <option value="islamabad">islamabad-Board</option>
+                    <option value="karachi">Karachi-Board</option>
+                    <option value="gujranwala">Gujranwala-Board</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="passyear">Passing Year:</label>
+                <select name="board" id="passyear">
+                    <option value="default">Select Passing Year</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                </select>
+            </div>
+            <div>
+                <label for="degree">Degree:</label>
+                <select name="board" id="degree">
+                    <option value="default">Select Degree</option>
+                    <option value="2010">Matriculation</option>
+                    <option value="2011">Intermediate</option>
+                    <option value="2012">Bachelors</option>
+                    <option value="2013">Other</option>
+
+                </select>
+            </div>
+        </fieldset>
+        <fieldset id="subject-field">
+            <legend>Subjects Details</legend>
+
+            <div class="subject">
+                <div>
+                    <label for="subName1">Subject Name:</label>
+                    <input id="subName1" type="text" name="subName1" required>
+                </div>
+                <div>
+                    <label for="tm1">Total Marks:</label>
+                    <input id="tm1" type="number" name="tm1" required>
+                </div>
+                <div>
+                    <label for="om1">Obtained Marks:</label>
+                    <input id="om1" type="number" name="om1"  required>
+                </div>
+            </div>
+
+            <div class="subject">
+                <div>
+                    <label for="subName2">Subject Name:</label>
+                    <input id="subName2" type="text" name="subName2" required>
+                </div>
+                <div>
+                    <label for="tm2">Total Marks:</label>
+                    <input id="tm2" type="number" name="tm2" required>
+                </div>
+                <div>
+                    <label for="om2">Obtained Marks:</label>
+                    <input id="om2" type="number" name="om2"  required>
+                </div>
+            </div>
+            <div class="subject">
+                <div>
+                    <label for="subName3">Subject Name:</label>
+                    <input id="subName3" type="text" name="subName3" required>
+                </div>
+                <div>
+                    <label for="tm3">Total Marks:</label>
+                    <input id="tm3" type="number" name="tm3" required>
+                </div>
+                <div>
+                    <label for="om3">Obtained Marks:</label>
+                    <input id="om3" type="number" name="om3"  required>
+                </div>
+            </div>
+            <div class="subject">
+                <div>
+                    <label for="subName4">Subject Name:</label>
+                    <input id="subName4" type="text" name="subName4" required>
+                </div>
+                <div>
+                    <label for="tm4">Total Marks:</label>
+                    <input id="tm4" type="number" name="tm4" required>
+                </div>
+                <div>
+                    <label for="om4">Obtained Marks:</label>
+                    <input id="om4" type="number" name="om4"  required>
+                </div>
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
